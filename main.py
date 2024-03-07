@@ -7,10 +7,7 @@ def main():
 
 def get_word_count(text):
     words = text.split()
-    word_count = 0
-    for word in words:
-        word_count += 1
-    return word_count
+    return len(words)
 
 
 def get_book_text(path):
